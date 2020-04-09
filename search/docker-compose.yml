@@ -1,0 +1,8 @@
+web:
+    build: .
+    command: python -u search.py
+    ports:
+        - "5005:5005"
+    volumes: 
+        - .:/search
+
